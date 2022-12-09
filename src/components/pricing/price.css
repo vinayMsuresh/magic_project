@@ -1,0 +1,54 @@
+.priceTopTitle {
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.textOrange {
+    color: rgb(221, 127, 45)
+}
+
+.priceTopDesc {
+    color: grey;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btnfaded {
+    display: none;
+}
+
+.pricingSlot {
+    border: none;
+    padding-left: 5%;
+    padding-right: 3%;
+    background-color: lightgray;
+}
+
+.priceSlotTitle {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.priceDesc {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.pricePerMonth {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+}
+
+.pricePerMonthTitle {
+    font-weight: 600;
+}
+
+.priceSlotBtn {
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

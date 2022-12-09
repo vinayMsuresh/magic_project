@@ -8,7 +8,7 @@ import Footer from './components/Footer/Footer';
 import Dashboard from './components/Dashboard/Dashboard';
 
 function App() {
-  const [show, setShow] = useState(true)
+  const [show, setShow] = useState(false);
   return (
     <div>
       <NavBar/>
