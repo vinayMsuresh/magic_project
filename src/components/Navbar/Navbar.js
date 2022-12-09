@@ -4,8 +4,6 @@ import { Container, Nav } from 'react-bootstrap'
 
 function Navbar() {
   return (
-    // 
-    <>
     <Navbar bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="#home">Navbar</Navbar.Brand>
@@ -15,7 +13,7 @@ function Navbar() {
             <Nav.Link href="#pricing">Pricing</Nav.Link>
           </Nav>
         </Container>
-      </Navbar></>
+      </Navbar>
   )
 }
 
