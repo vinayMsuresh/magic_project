@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import './App.scss';
 import NavBar from './components/Navbar/NavBar';
 import Login from './components/Login/Login';
 import { useState } from 'react';
