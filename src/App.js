@@ -1,21 +1,21 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
-<<<<<<< HEAD
-import Navbar from './components/Navbar/Navbar';
-=======
+import './App.scss';
+import NavBar from './components/Navbar/NavBar';
 import Login from './components/Login/Login';
 import { useState } from 'react';
->>>>>>> d8271c0599a33c2e50441c988f9a6e7526e2d3fd
+import Home from './components/Home/Home';
+import Footer from './components/Footer/Footer';
+import Dashboard from './components/Dashboard/Dashboard';
 
 function App() {
   const [show, setShow] = useState(true)
   return (
-    <div className="App">
-<<<<<<< HEAD
-      <Navbar/>
-=======
+    <div>
+      <NavBar/>
+      <Home/>
+      <Dashboard/>
       <Login show={show} handleClose={()=>setShow(false)} />
->>>>>>> d8271c0599a33c2e50441c988f9a6e7526e2d3fd
+      <Footer/>
     </div>
   );
 }
